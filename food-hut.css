@@ -727,7 +727,7 @@ body {
 }
 
 /* Media Query */
-@media screen and (width <= 1075px) {
+@media screen and (max-width: 1075px) {
     .user-research-img-div .img-1 {
         border-radius: 25px;
     }
@@ -735,7 +735,7 @@ body {
         border-radius: 25px;
     }
 }
-@media screen and (width <= 767px) {
+@media screen and (max-width: 767px) {
     .gen {
         padding: 0px 20px 0px 20px;
         margin-bottom: 65px;
@@ -992,7 +992,7 @@ body {
         font-size: 15.3px;
     }
 }
-@media screen and (width <= 608px) {
+@media screen and (max-width: 608px) {
     .my-role-img-div img {
         width: 100%;
     }
@@ -1015,7 +1015,7 @@ body {
         font-size: 15px
     }
 }
-@media screen and (width <= 524px) {
+@media screen and (max-width: 524px) {
     .top-banner {
         height: 410px;
     }
