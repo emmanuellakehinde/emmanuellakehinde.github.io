@@ -755,6 +755,7 @@ body {
     .gen .body {
         margin-bottom: 30px;
         font-size: 15.3px;
+        font-weight: 400;
     }
     .yellow-half, .white-half {
         padding: 0px 20px 0px 20px;
