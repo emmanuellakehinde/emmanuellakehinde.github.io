@@ -45,7 +45,7 @@ h3 {
 }
 .challenges {
     width: 50%;
-    padding-right: 25px;
+    margin-right: 45px;
 }
 .goals-and-merits {
     width: 50%;
@@ -97,6 +97,9 @@ h3 {
 .user-interview {
     padding: 0px 50px 0px 50px;
     margin-bottom: 100px;
+}
+.user-interview-body {
+    margin-bottom: 50px;
 }
 /* pie chart div 1 */
 .pie-charts-div-1 {
@@ -324,6 +327,7 @@ table {
 /* sign in or sign up */
 .sign-in-sign-up {
     margin-bottom: 200px;
+    /* border: 1px solid black; */
 }
 .number-and-body-2 {
     display: flex;
@@ -602,7 +606,8 @@ table {
     }
     .challenges {
         width: 100%;
-        padding-right: 0px;
+        margin-right: 0px;
+        margin-bottom: 50px;
     }
     .goals-and-merits {
         width: 100%;
@@ -634,6 +639,10 @@ table {
     /* usability study */
     .us-div {
         margin-bottom: 0px;
+    }
+    .finding-solutions-img-div img:last-child {
+        margin-bottom: 45px;
+        /* border: 1px solid black; */
     }
     /* screens showing a simple and direct user flow */
     .simple-and-direct-user-flow h2 {
