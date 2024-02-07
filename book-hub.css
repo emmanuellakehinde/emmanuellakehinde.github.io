@@ -725,13 +725,12 @@ table {
         margin-top: 15px;
     }
 }
-@media screen and (max-width: 396) {
+@media screen and (max-width: 396px) {
     .search-and-discover-img-div img {
-        margin-top: 13px;
+        margin-top: 10px;
+    }
+    .payment-information-img-div img {
+        margin-top: 20px;
     }
 }
-@media screen and (max-width: 380) {
-    .search-and-discover-img-div img {
-        margin-top: 17px;
-    }
-}
+
