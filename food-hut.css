@@ -598,6 +598,15 @@ body {
     margin-bottom: 130px;
 }
 
+/* iterating the design */
+.iterating-the-design {
+    margin-bottom: 130px;
+    padding: 50px 50px 0px 50px;
+}
+.iterating-the-design-img-div img {
+    width: 100%;
+}
+
 /* mockup screens */
 .mockup-screens {
     margin-bottom: 130px;
@@ -979,6 +988,12 @@ body {
     }
     .dw2 {
         margin-bottom: 20px;
+    }
+
+    /* iterating the design */
+    .iterating-the-design {
+        margin-bottom: 130px;
+        padding-top: 30px;
     }
 
     /* mockup screens */
