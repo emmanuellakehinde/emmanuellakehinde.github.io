@@ -653,7 +653,10 @@ table {
     }
     .sec-explain {
         font-size: xx-small;
-        line-height: 9px;
+        line-height: 10.5px;
+    }
+    .number-and-body-1 {
+        margin-bottom: 10px;
     }
     .body-1 {
         width: 95%;
@@ -701,5 +704,34 @@ table {
 @media screen and (max-width: 608px) {
     .my-role-img-div img {
         width: 100%;
+    }
+}
+@media screen and (max-width: 439px) {
+    .notification-img-div img {
+        margin-top: 10px;
+    }
+    .payment-information-img-div img {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 398px) {
+    .make-request-img-div img {
+        margin-top: 13px;
+    }
+    .notification-img-div img {
+        margin-top: 15px;
+    }
+    .payment-information-img-div img {
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width: 396) {
+    .search-and-discover-img-div img {
+        margin-top: 13px;
+    }
+}
+@media screen and (max-width: 380) {
+    .search-and-discover-img-div img {
+        margin-top: 17px;
     }
 }
