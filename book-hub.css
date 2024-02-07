@@ -79,6 +79,7 @@ h3 {
 .key {
     width: 40%;
     margin-right: 10px;
+    font-weight: 600;
     /* border: 1px solid black; */
 }
 .value {
