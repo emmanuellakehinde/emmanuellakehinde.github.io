@@ -52,7 +52,7 @@ body {
 }
 .white-half {
     width: 100%;
-    height: 35%;
+    height: 34%;
     background: white;
 }
 
@@ -367,9 +367,8 @@ body {
 
 /* competitive audit */
 .competitive-audit {
-    /* margin-bottom: 130px; */
+    margin-bottom: 70px;
     padding: 50px 50px 50px 50px;
-    background: #FBB411;
 }
 .competitive-audit h2 {
     font-weight: 600 !important;
@@ -409,7 +408,6 @@ body {
 .strategy-implementation {
     margin-bottom: 70px;
     padding: 50px 50px 1px 50px;
-    background: #FBB411;
 }
 .strategy-implementation h2 {
     font-weight: 600 !important;
@@ -584,7 +582,6 @@ body {
 .digital-wireframes {
     margin-bottom: 130px;
     padding: 50px 50px 0px 50px;
-    background: #fff5cc;
 }
 .digital-wireframes-div h2 {
     font-weight: 600 !important;
@@ -594,37 +591,39 @@ body {
 .digital-wireframes-div img {
     width: 100%;
 }
-.dw2 {
+/* .dw2 {
     margin-bottom: 130px;
-}
+} */
 
 /* iterating the design */
 .iterating-the-design {
     margin-bottom: 130px;
-    padding: 50px 50px 0px 50px;
+    padding: 0px 50px 0px 50px;
+}
+.iterating-the-design h2 {
+    margin-bottom: 50px;
 }
 .iterating-the-design-img-div img {
     width: 100%;
 }
 
-/* mockup screens */
-.mockup-screens {
+/* screens */
+.screens {
     margin-bottom: 130px;
     padding: 50px 50px 50px 50px;
-    background: #f8b411;
 }
-.mockup-screens-div h2 {
+.screens-div h2 {
     font-weight: 600 !important;
-    margin-bottom: 30px;
-    text-align: left;
+    margin-bottom: 50px;
+    text-align: center;
 }
-.mockup-screens-body {
+.screens-body {
     font-weight: 500;
     text-align: justify;
     margin-bottom: 20px;
     font-size: 20px;
 }
-.mockup-screens-div img {
+.screens-div img {
     width: 100%;
 }
 
@@ -635,7 +634,7 @@ body {
 }
 .white-screens h2 {
     font-weight: 600 !important;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .white-screens-img-div img {
     width: 100%;
@@ -648,7 +647,7 @@ body {
 }
 .black-screens h2 {
     font-weight: 600 !important;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .black-screens-img-div img {
     width: 100%;
@@ -897,7 +896,7 @@ body {
     /* competitive audit */
     .competitive-audit {
         padding-top: 30px;
-        margin-bottom: 0px;
+        margin-bottom: 35px;
     }
     .competitive-audit-img-div {
         display: block;
@@ -980,11 +979,11 @@ body {
 
     /* digital wireframes */
     .digital-wireframes {
-        margin-bottom: 0px;
-        padding-top: 20px;
+        margin-bottom: 25px;
+        padding-top: 30px;
     }
     .digital-wireframes-div h2 {
-        margin-bottom: 0px !important;
+        margin-bottom: 30px !important;
     }
     .dw2 {
         margin-bottom: 20px;
@@ -992,14 +991,36 @@ body {
 
     /* iterating the design */
     .iterating-the-design {
-        margin-bottom: 130px;
+        margin-bottom: 50px;
         padding-top: 30px;
     }
+    .iterating-the-design h2 {
+        margin-bottom: 30px;
+    }
 
-    /* mockup screens */
-    .mockup-screens {
+    /* screens */
+    .screens {
         padding-top: 20px !important;
-        padding-bottom: 30px;
+        margin-bottom: 50px;
+    }
+    .screens-div h2 {
+        margin-bottom: 30px;
+    }
+
+    /* white screens */
+    .white-screens {
+        margin-bottom: 50px;
+    }
+    .white-screens h2 {
+        margin-bottom: 30px;
+    }
+
+    /* black screens */
+    .black-screens {
+        margin-bottom: 50px;
+    }
+    .black-screens h2 {
+        margin-bottom: 30px;
     }
 
     /* accessibility considered */

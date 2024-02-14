@@ -2,6 +2,10 @@
     font-family: Satoshi-Variable;
     src: url(./assets/Satoshi_Complete/Fonts/Variable/Satoshi-Variable.ttf);
 }
+/* @font-face {
+    font-family: Freestyle Script;
+    src: url(./resources/freestyle-script/FREESCPT.TTF);
+} */
 
 body {
     margin: 0px;
@@ -14,6 +18,8 @@ body {
 nav {
     display: flex;
     padding: 15px 50px 15px 50px !important;
+    -moz-box-shadow: 0 10px 100px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 10px 100px rgba(0,0,0,.1);
     box-shadow: 0 10px 100px rgba(0,0,0,.1);
 }
 .profile {
@@ -96,9 +102,11 @@ h4 {
 }
 .icons button {
     border: none;
-    background-color: rgb(247, 244, 221);
+    background-color: #f0f0f0;
     border-radius: 50%;
     padding: 5px 10px 5px 10px;
+    -moz-box-shadow: 0px 4px 13px 0px grey;
+    -webkit-box-shadow: 0px 4px 13px 0px grey;
     box-shadow: 0px 4px 13px 0px grey;
     margin-left: 10px;
     margin-right: 10px;
@@ -120,32 +128,77 @@ h4 {
 .food-hut {
     padding: 0px 50px 0px 50px;
 }
+.food-hut-img-div {
+    border-radius: 6px;
+    transition: 0.5s all ease-in-out;
+}
+.food-hut-img-div:hover {
+    -moz-box-shadow: 0px 0px 10px 5px #f8b411;
+    -webkit-box-shadow: 0px 0px 10px 5px #f8b411;
+    box-shadow: 0px 0px 10px 5px #f8b411;
+    transition: 0.5s all ease-in-out;
+}
+.food-hut-img-div:active {
+    -moz-box-shadow: 0px 0px 10px 5px #f8b411;
+    -webkit-box-shadow: 0px 0px 10px 5px #f8b411;
+    box-shadow: 0px 0px 10px 5px #f8b411;
+    transition: 0.3s all ease-in-out;
+}
 .food-hut img {
     width: 100%;
     border-radius: 6px;
     /* border: 1px solid black; */
 }
-.book-app {
+.book-hub {
     padding: 0px 50px 0px 50px;
     margin-bottom: 80px;
 }
-.book-app img {
+.book-hub-img-div {
+    border-radius: 6px;
+    transition: 0.5s all ease-in-out;
+}
+.book-hub-img-div:hover {
+    -moz-box-shadow: 0px 0px 10px 5px #9f7eff;
+    -webkit-box-shadow: 0px 0px 10px 5px #9f7eff;
+    box-shadow: 0px 0px 10px 5px #9f7eff;
+    transition: 0.5s all ease-in-out;
+}
+.book-hub-img-div:active {
+    -moz-box-shadow: 0px 0px 10px 5px #9f7eff;
+    -webkit-box-shadow: 0px 0px 10px 5px #9f7eff;
+    box-shadow: 0px 0px 10px 5px #9f7eff;
+    transition: 0.3s all ease-in-out;
+}
+.book-hub img {
     width: 100%;
     border-radius: 6px;
 }
-.food-hut button, .book-app button {
+.food-hut button, .book-hub button {
+    font-weight: 450;
     border: none;
-    background-color: rgb(233, 219, 219);
-    border-radius: 3px;
-    padding: 5px 10px 5px 10px;
+    background-color: #fcfcfc;
+    border-radius: 5px;
+    padding: 7px 12px 7px 12px;
+    -moz-shadow: 0px 4px 13px 0px grey;
+    -webkit-box-shadow: 0px 4px 13px 0px grey;
     box-shadow: 0px 4px 13px 0px grey;
     transition: 0.3s all ease-in-out;
 }
-.food-hut button a, .book-app button a {
+.food-hut button a, .book-hub button a {
     text-decoration: none;
     color: black;
 }
-.food-hut button:hover, .book-app button:hover {
+.food-hut button:hover {
+    color: #f8b411;
+    transition: 0.3s all ease-in-out;
+    transform: translateY(-4px);
+}
+.book-hub button:hover {
+    color: #9f7eff;
+    transition: 0.3s all ease-in-out;
+    transform: translateY(-4px);
+}
+.food-hut button:active, .book-hub button:active {
     color: grey;
     transition: 0.3s all ease-in-out;
     transform: translateY(-4px);
@@ -156,9 +209,15 @@ h4 {
     margin-bottom: 60px;
     width: 100;
 }
+.top-half-img-div {
+    text-align: center;
+}
+.top-half-img-div img {
+    width: 50%;
+}
 .bottom-half {
     padding: 40px 50px 30px 50px;;
-    background-color: rgba(218, 213, 213, 0.925);
+    /* background-color: rgba(218, 213, 213, 0.925); */
 }
 .form-div form {
     width: 100%;
@@ -181,6 +240,11 @@ h4 {
 footer {
     text-align: center;
     padding: 0px 50px 50px 50px;
+}
+footer h3 {
+    /* font-family: Freestyle Script; */
+    /* font-size: 4rem; */
+    margin-bottom: 0px;
 }
 
 /* Media query */
@@ -211,10 +275,10 @@ footer {
     .food-hut {
         padding: 0px 20px 0px 20px;
     }
-    .book-app {
+    .book-hub {
         padding: 0px 20px 0px 20px;
     }
-    .food-hut button, .book-app button {
+    .food-hut button, .book-hub button {
         font-size: small;
     }
     .get-in-touch {

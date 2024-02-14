@@ -108,26 +108,30 @@ h3 {
 }
 .pie-chart-a {
     width: 50%;
+    padding-left: 40px;
     margin-right: 24px;
 }
 .chart-a-img-div {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    margin-top: 35px;
 }
 .pie-chart-a img {
-    width: 70%;
+    width: 80%;
 }
 .pie-chart-b {
     width: 50%;
+    padding-left: 40px;
 }
 .chart-b-img-div {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    margin-top: 35px;
 }
 .pie-chart-b img {
-    width: 50%;
+    width: 60%;
 }
 /* pie chart div 2 */
 .pie-charts-div-2 {
@@ -135,26 +139,30 @@ h3 {
 }
 .pie-chart-c {
     width: 50%;
+    padding-left: 40px;
     margin-right: 24px;
 }
 .chart-c-img-div {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    margin-top: 35px;
 }
 .pie-chart-c img {
-    width: 60%;
+    width: 75%;
 }
 .pie-chart-d {
     width: 50%;
+    padding-left: 40px;
 }
 .chart-d-img-div {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    margin-top: 35px;
 }
 .pie-chart-d img {
-    width: 55%;
+    width: 70%;
 }
 
 /* user pain points */

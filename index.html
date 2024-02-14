@@ -19,7 +19,7 @@
 
     <script>
         AOS.init({
-            duration: 700,
+            duration: 1800,
             once: false,
             enable: 'mobile'
         })
@@ -42,16 +42,16 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav mb-auto">
                 <li class="nav-item active"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
-    <br><br><br><br><br>
+    <br id="about"><br><br><br><br>
 
     <!--MAIN BODY-->
-    <h1 class="heading" data-aos="fade-up">Hi, I'm Emmanuella. </h1>
+    <h1  class="heading" data-aos="fade-in">Hi, I'm Emmanuella. </h1>
     <p class="intro" data-aos="fade-up">I'm a Ux/Ui Designer  with a love for simplicity, a tech enthusiast, 
         and an entrepreneur. As a designer, I'm passionate about helping 
         businesses expand their impact and also improving the quality of peoples
@@ -59,7 +59,7 @@
     </p>
     <br>
     <!-- social media -->
-    <h6 class="connect-with-me" style="font-weight: 400; color: rgb(160, 157, 157); text-align: center;">Connect with me..</h6>
+    <h6 id="projects" class="connect-with-me" style="font-weight: 400; color: rgb(160, 157, 157); text-align: center;">Connect with me..</h6>
     <div class="icons">
         <!-- <a href=""><button><i class="fa-brands fa-behance"></i></button></a> -->
         <!-- <a href=""><button><i class="fa-brands fa-linkedin"></i></button></a> -->
@@ -74,33 +74,41 @@
     <!-- projects -->
     <h6 class="recent-heading">My Recent Works </h6>
     <br>
-    <div class="food-hut">
-        <div class="food-hut-img-div">
-            <img src="./resources/food-hut banner.jpg" alt="">
-        </div>
+    <div class="food-hut" data-aos="fade-up">
+        <a href="./food-hut.html">
+            <div class="food-hut-img-div">
+                <img src="./resources/food-hut banner.png" alt="">
+            </div>
+        </a>
         <br>
         <a href="./food-hut.html"><button>View Case Study</button></a>
     </div>
     <br><br>
-    <div class="book-app">
-        <div class="book-app-img-div">
-            <img src="" alt="">
-        </div>
-        <br>
+    <div class="book-hub" data-aos="fade-up">
+        <a href="./book-hub.html">
+            <div class="book-hub-img-div">
+                <img src="./resources/book-hub banner.jpg" alt="">
+            </div>
+        </a>
+        <br id="contact">
         <a href="./book-hub.html"><button>View Case Study</button></a>
     </div>
 
     <!-- PRE-FOOTER -->
-    <div class="pre-footer">
+    <div class="pre-footer" data-aos="fade-up">
         <p class="get-in-touch" style="text-align: center;">Get in touch for opportunities or say Hi!</p>
         <div class="top-and-bottom">
-            <div class="top-half"></div>
+            <div class="top-half">
+                <div class="top-half-img-div">
+                    <img src="./resources/5972.jpg" alt="">
+                </div>
+            </div>
             <div class="bottom-half">
-                <div class="form-div">
+                <!-- <div class="form-div">
                     <form action="">
                         <input type="text">
                     </form>
-                </div>
+                </div> -->
                 <div class="icons i-2">
                     <!-- <a href=""><button><i class="fa-brands fa-behance"></i></button></a> -->
                     <!-- <a href=""><button><i class="fa-brands fa-linkedin"></i></button></a> -->
@@ -117,8 +125,13 @@
 
     <!-- FOOTER -->
     <footer>
-        © Copyright 2023 Emmanuella O. K. <br>
-        All rights reserved
+        <div class="footer">
+            <div data-aos="fade-in">
+                <h3 class="footer-h3">eok</h3>
+                <p>© Copyright 2023 Emmanuella O. K. <br>
+                    All rights reserved</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
