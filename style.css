@@ -179,6 +179,7 @@ h4 {
 .food-hut button, .book-hub button {
     font-weight: 450;
     border: none;
+    color: black;
     background-color: #fcfcfc;
     border-radius: 5px;
     padding: 7px 12px 7px 12px;
