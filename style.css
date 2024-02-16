@@ -35,6 +35,9 @@ nav {
 .navbar-nav .nav-item {
     padding: 10px;
 }
+.navbar-nav .nav-item:first-of-type {
+    border-top: none;
+}
 .nav-link {
     color: black;
     transition: 0.3s all ease-in-out;
@@ -45,8 +48,7 @@ nav {
     transition: 0.3s all ease-in-out;
 }
 .collapse {
-    display: flex;
-    justify-content: left;
+    justify-content: right;
 }
 .navbar-toggler-icon i {
     color: black !important;
@@ -257,6 +259,9 @@ footer h3 {
 @media screen and (max-width: 767px){
     nav {
         padding: 15px 20px 15px 20px !important;
+    }
+    .navbar .nav-item {
+        border-top: 1px solid rgb(214, 208, 208);
     }
 
     /* main body */
