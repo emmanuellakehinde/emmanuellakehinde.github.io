@@ -2,10 +2,10 @@
     font-family: Satoshi-Variable;
     src: url(./assets/Satoshi_Complete/Fonts/Variable/Satoshi-Variable.ttf);
 }
-/* @font-face {
+@font-face {
     font-family: Freestyle Script;
     src: url(./resources/freestyle-script/FREESCPT.TTF);
-} */
+}
 
 body {
     margin: 0px;
@@ -70,6 +70,9 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: left ;
+    font-family: Freestyle Script;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 /* main body */
