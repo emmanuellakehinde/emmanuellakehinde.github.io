@@ -251,6 +251,7 @@ footer {
     display: block;
     text-align: center;
     padding: 0px 50px 50px 50px;
+    margin-bottom: 50px;
 }
 footer h3 {
     /* font-family: Freestyle Script; */
