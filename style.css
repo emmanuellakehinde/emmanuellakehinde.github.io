@@ -67,7 +67,7 @@ nav {
     object-fit: cover;
     border-radius: 50%;
 } */
-.name-title {
+.name-title span {
     display: flex;
     flex-direction: column;
     justify-content: left ;
