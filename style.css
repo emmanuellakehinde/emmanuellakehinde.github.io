@@ -71,7 +71,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: left ;
-    font-family: Freestyle Script !important;
+    font-family: Freestyle Script;
     font-size: 1.5em;
     font-weight: bold;
 }
@@ -160,7 +160,6 @@ h4 {
 }
 .book-hub {
     padding: 0px 50px 0px 50px;
-    margin-bottom: 80px;
 }
 .book-hub-img-div {
     border-radius: 6px;
@@ -182,10 +181,34 @@ h4 {
     width: 100%;
     border-radius: 6px;
 }
-.food-hut button, .book-hub button {
+.accatex {
+    padding: 0px 50px 0px 50px;
+    margin-bottom: 80px;
+}
+.accatex-img-div {
+    border-radius: 6px;
+    transition: 0.5s all ease-in-out;
+}
+.accatex-img-div:hover {
+    -moz-box-shadow: 0px 0px 10px 5px #ca39c5;
+    -webkit-box-shadow: 0px 0px 10px 5px #ca39c5;
+    box-shadow: 0px 0px 10px 5px #ca39c5;
+    transition: 0.5s all ease-in-out;
+}
+.accatex-img-div:active {
+    -moz-box-shadow: 0px 0px 10px 5px #ca39c5;
+    -webkit-box-shadow: 0px 0px 10px 5px #ca39c5;
+    box-shadow: 0px 0px 10px 5px #ca39c5;
+    transition: 0.3s all ease-in-out;
+}
+.accatex img {
+    width: 100%;
+    border-radius: 6px;
+}
+.food-hut button, .book-hub button, .accatex button {
     font-weight: 450;
     border: none;
- /* color: black !important; */
+    /* color: black !important; */
     background-color: #fcfcfc;
     border-radius: 5px;
     padding: 7px 12px 7px 12px;
@@ -194,7 +217,7 @@ h4 {
     box-shadow: 0px 4px 13px 0px grey;
     transition: 0.3s all ease-in-out;
 }
-.food-hut button a, .book-hub button a {
+.food-hut button a, .book-hub button a, .accatex button a {
     text-decoration: none;
     color: black !important;
 }
@@ -208,7 +231,12 @@ h4 {
     transition: 0.3s all ease-in-out;
     transform: translateY(-4px);
 }
-.food-hut button:active, .book-hub button:active {
+.accatex button:hover {
+    color: #ca39c5 !important;
+    transition: 0.3s all ease-in-out;
+    transform: translateY(-4px);
+}
+.food-hut button:active, .book-hub button:active, .accatex button:active {
     color: grey;
     transition: 0.3s all ease-in-out;
     transform: translateY(-4px);
@@ -251,7 +279,7 @@ footer {
     position: relative;
     display: block;
     text-align: center;
-    padding: 0px 50px 50px 50px;
+    padding: 0px 50px 0px 50px;
     margin-bottom: 50px;
 }
 footer h3 {
@@ -294,7 +322,10 @@ footer h3 {
     .book-hub {
         padding: 0px 20px 0px 20px;
     }
-    .food-hut button, .book-hub button {
+    .accatex {
+        padding: 0px 20px 0px 20px;
+    }
+    .food-hut button, .book-hub button, .accatex button {
         font-size: small;
     }
     .get-in-touch {
