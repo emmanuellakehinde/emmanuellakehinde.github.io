@@ -199,12 +199,12 @@ h4 {
     color: black !important;
 }
 .food-hut button:hover {
-    color: #f8b411;
+    color: #f8b411 !important;
     transition: 0.3s all ease-in-out;
     transform: translateY(-4px);
 }
 .book-hub button:hover {
-    color: #9f7eff;
+    color: #9f7eff !important;
     transition: 0.3s all ease-in-out;
     transform: translateY(-4px);
 }
