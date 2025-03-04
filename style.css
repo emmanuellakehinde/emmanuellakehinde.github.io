@@ -33,6 +33,12 @@ nav {
 .navbar-toggler-icon i {
     margin-right: 0px;
 }
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
 .navbar-nav .nav-item {
     padding: 10px;
 }
