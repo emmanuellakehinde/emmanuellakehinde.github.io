@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Satoshi-Variable;
+    src: url(./assets/Satoshi_Complete/Fonts/Variable/Satoshi-Variable.ttf);
+}
+
+body {
+    margin: 0px;
+    width: 100%;
+    font-family: 'Satoshi-Variable';
+}
+
+/* first part */
+.first-part-img-div img {
+    width: 100%;
+}
+
+/* second part */
+.second-part-img-div img {
+    width: 100%;
+}
+
+/* third part */
+.third-part-img-div img {
+    width: 100%;
+}
+
+/* fourth part */
+.fourth-part-img-div img {
+    width: 100%;
+}
+
+/* fifth part */
+.fifth-part-img-div img {
+    width: 100%;
+}
+
+/* sixth part */
+.sixth-part-img-div img {
+    width: 100%;
+}
+
+/* seventh part */
+.seventh-part-img-div img {
+    width: 100%;
+}

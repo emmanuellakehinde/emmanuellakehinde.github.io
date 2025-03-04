@@ -183,7 +183,7 @@ h4 {
 }
 .accatex {
     padding: 0px 50px 0px 50px;
-    margin-bottom: 80px;
+    margin-bottom: 45px;
 }
 .accatex-img-div {
     border-radius: 6px;
@@ -205,7 +205,31 @@ h4 {
     width: 100%;
     border-radius: 6px;
 }
-.food-hut button, .book-hub button, .accatex button {
+.my-course-assign {
+    padding: 0px 50px 0px 50px;
+    margin-bottom: 80px;
+}
+.my-course-assign-img-div {
+    border-radius: 6px;
+    transition: 0.5s all ease-in-out;
+}
+.my-course-assign-img-div:hover {
+    -moz-box-shadow: 0px 0px 10px 5px #8433cf;
+    -webkit-box-shadow: 0px 0px 10px 5px #8433cf;
+    box-shadow: 0px 0px 10px 5px #8433cf;
+    transition: 0.5s all ease-in-out;
+}
+.my-course-assign-img-div:active {
+    -moz-box-shadow: 0px 0px 10px 5px #8433cf;
+    -webkit-box-shadow: 0px 0px 10px 5px #8433cf;
+    box-shadow: 0px 0px 10px 5px #8433cf;
+    transition: 0.3s all ease-in-out;
+}
+.my-course-assign img {
+    width: 100%;
+    border-radius: 6px;
+}
+.food-hut button, .book-hub button, .accatex button, .my-course-assign button {
     font-weight: 450;
     border: none;
     color: black !important;
@@ -217,7 +241,7 @@ h4 {
     box-shadow: 0px 4px 13px 0px grey;
     transition: 0.3s all ease-in-out;
 }
-.food-hut button a, .book-hub button a, .accatex button a {
+.food-hut button a, .book-hub button a, .accatex button a, .my-course-assign button a {
     text-decoration: none;
     color: black !important;
 }
@@ -236,7 +260,12 @@ h4 {
     transition: 0.3s all ease-in-out;
     transform: translateY(-4px);
 }
-.food-hut button:active, .book-hub button:active, .accatex button:active {
+.my-course-assign button:hover {
+    color: #8433cf !important;
+    transition: 0.3s all ease-in-out;
+    transform: translateY(-4px);
+}
+.food-hut button:active, .book-hub button:active, .accatex button:active, .my-course-assign:active {
     color: grey;
     transition: 0.3s all ease-in-out;
     transform: translateY(-4px);
@@ -280,7 +309,7 @@ footer {
     display: block;
     text-align: center;
     padding: 0px 50px 0px 50px;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
 }
 footer h3 {
     /* font-family: Freestyle Script; */
@@ -325,7 +354,10 @@ footer h3 {
     .accatex {
         padding: 0px 20px 0px 20px;
     }
-    .food-hut button, .book-hub button, .accatex button {
+    .my-course-assign {
+        padding: 0px 20px 0px 20px;
+    }
+    .food-hut button, .book-hub button, .accatex button, .my-course-assign button {
         font-size: small;
     }
     .get-in-touch {
